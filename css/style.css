@@ -1,0 +1,313 @@
+@media (min-device-width:576px){
+	section{
+	}
+	h1{	
+		font-family: "Open Sans";
+		color: rgb(255, 255, 255);
+		line-height: 1.6;
+		text-align: center;
+		text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
+	}
+	h2{
+		font-size: 24px;
+		font-family: "Open Sans";
+		color: rgb(132, 139, 144);
+		line-height: 1.417;
+		text-align: center;
+	}
+	h3{
+		font-family: "Open Sans";
+		color: rgb(255, 255, 255);
+		line-height: 1.537;  
+	}
+	h5{
+		font-size: 20px;
+		color: rgb(67, 181, 253);
+		line-height: 1.3;
+		margin-bottom: 20px;
+	}
+	.main_banner__textTop,.two{
+		background: url(../images/poi.png) no-repeat top/cover;
+		min-width: 100%;
+	}
+
+	.mainBanner{
+		height: auto;
+		width: 100%;
+		position: relative;
+	}
+
+	.main_banner__textBottom p{
+		color: #c8c8c8;
+	}
+	.btn__visit{
+		margin-right: 15px;
+	}
+
+
+	.looking__for{
+		margin-top: 25px;
+	}
+	.looking__for p{
+		font-size: 15px;
+		font-family: "OpenSans";
+		color: rgb(132, 139, 144);
+		line-height: 2.267;
+	}
+
+
+	.setPosition{	
+		text-align: center;
+	}
+
+	.three .setPosition,.four .setPosition{
+		margin-top: -55px;
+	}
+	.setPosition h4{
+		color: rgb(255, 255, 255);
+		line-height: 0.828;
+		text-align: center;
+	}
+	.setPosition p{
+		font-family: "OpenSans";
+		color: rgb(172, 179, 174);
+	}
+	.three,.four{
+		padding-top: 45px;
+		text-align: center;
+	}
+	.three p,.four p{
+		margin-top: 10px;
+		font-size: 18px;
+		font-family: "OpenSans";
+		color: rgb(142, 149, 144);	
+	}
+	.setPosition a{
+
+		color: grey;
+	}
+	.link{ 
+		margin-top: -15px;
+		font-size: 13px;
+		font-family: "OpenSans";	
+		margin-bottom: 80px;
+	}
+}
+@media (min-device-width:1199px){
+	.mainBanner{
+		margin-left: 50px;
+		top:-175px;
+		max-height: 355px;
+	}
+	.main_banner__textBottom{
+		height: 300px;
+	}
+}
+@media (min-device-width:991px){
+	.main_banner__textTop{	
+		padding: 80px;
+	}
+	.main_banner__textTop,.two{
+		height: 350px;
+	}
+	.navbar-brand,
+	.navbar-nav li a {
+		line-height: 90px;
+		height: 90px;
+		padding-top: 0;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.mainBanner{
+		margin-bottom: -160px;
+	}
+	.media__group{
+		top: -295px;
+		left:75px;
+	}
+	h3{
+		font-size: 28px;
+	}
+
+	.main_banner__textBottom p{		
+		margin-top: 6px;
+	}
+	.setPosition{
+		padding-top: 85px;
+	}
+	.setPosition h4{
+		margin: 30px 0;
+	}
+	.three h2,.four h2{
+		margin-top: 20px;
+	}
+}
+@media (min-device-width:991px) and (max-device-width:1199px){
+	.mainBanner{
+		top:-165px;
+		max-height: 355px;
+	}
+}
+@media (min-device-width:767px) and (max-device-width:991px){	
+	.main_banner__textTop{	
+		padding: 30px;
+	}
+	.main_banner__textTop,.two{
+		height: 240px;
+	}
+	h1{
+		font-size: 23px;
+	}
+	.mainBanner{
+		top:-100px;
+		max-height: 355px;
+		margin-bottom: -200px;
+	}
+	.media__group{
+		top: -240px;
+		left:30px;
+	}
+	h3{
+		font-size: 28px;
+		margin-bottom: -5px;
+	}
+	.btn{
+		margin-top: -10px;
+	}
+	.setPosition{
+		padding-top: 10px;
+	}
+	.setPosition h4{
+		margin: 10px 0;
+	}
+	.fix__sm{
+		margin-bottom: 60px;
+	}
+}
+@media (min-device-width:576px) and (max-device-width:767px){
+	.main_banner__textTop{	
+		padding: 30px;
+	}
+	.main_banner__textTop,.two{
+		height: 200px;
+	}
+	h1{
+		font-size: 17px;
+	}
+	.mainBanner{
+		top:-100px;
+		max-height: 355px;
+		margin-bottom: -270px;
+	}
+	.media__group{
+		top: -180px;
+		left:10px;
+	}
+	.media__group p{
+		font-size: 13px;
+	}
+	h3{
+		font-size: 20px;
+		margin-bottom: -5px;
+	}
+	.btn{
+		margin-top: -10px;
+	}
+	.setPosition{
+		padding-top: 10px;
+	}
+	.setPosition h4{
+		margin: 10px 0;
+	}
+	.fix__sm{
+		margin-bottom: 60px;
+	}
+	.btn{
+		height: 25px;
+		padding-top: 0px;
+		margin-top: -30px;
+	}
+	h4{
+		font-size: 15px ;
+	}
+	.setPosition p{
+		font-size: 13px;
+	}
+}
+
+}
+@media (max-device-width:992px){
+	footer button{
+		display: none;		
+	}
+	.main_banner__textTop{	
+		padding: 30px;
+	}
+	.main_banner__textTop,.two{
+		height: 200px;
+	}
+	h1{
+		font-size: 17px;
+	}
+	.mainBanner{
+		top:-100px;
+		max-height: 355px;
+		margin-bottom: -270px;
+	}
+	.mainBanner img{
+		display: none;
+	}
+	.media__group{
+		top: -180px;
+		left:10px;
+	}
+	.media__group p{
+		font-size: 13px;
+	}
+	h3{
+		font-size: 20px;
+		margin-bottom: -5px;
+	}
+	.btn{
+		margin-top: -10px;
+	}
+	.setPosition{
+		padding-top: 10px;
+	}
+	.setPosition h4{
+		margin: 10px 0;
+	}
+	.fix__sm{
+		margin-bottom: 60px;
+	}
+	.btn{
+		height: 25px;
+		padding-top: 0px;
+		margin-top: -30px;
+	}
+	h4{
+		font-size: 15px ;
+	}
+	.setPosition p{
+		font-size: 13px;
+	}
+}
+
+@media (max-device-width:991px){	
+	footer .navbar-toggler{
+		display: none;
+	}	
+}
+@media (max-device-width:575px){
+	.mainBanner img{
+		display: none;
+	}
+	h5{
+		font-size: 12px;		
+	}
+
+	h6{
+		font-size: 15px !important;
+	}
+}
